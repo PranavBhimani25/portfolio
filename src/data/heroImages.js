@@ -1,5 +1,5 @@
 export const heroImages = [
-  "/src/assets/travel_3.png",
-  "/src/assets/travel_8.png",
-  "/src/assets/fashion_1.PNG",
+  "/images/travel_3.PNG",
+  "/images/travel_8.PNG",
+  "/images/fashion_1.PNG",
 ]
