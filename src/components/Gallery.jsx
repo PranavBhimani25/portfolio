@@ -8,17 +8,23 @@ export default function Gallery() {
           Selected Work
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {gallery.map(item => (
-            <div key={item.id} className="overflow-hidden group">
-              <img
-                src={item.image}
-                alt=""
-                className="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
-              />
-            </div>
+        <div className="columns-1 sm:columns-2 md:columns-3 gap-6">
+        {gallery.map(item => (
+          <div
+            key={item.id}
+            className="mb-6 overflow-hidden group relative"
+          >
+            <img
+              src={item.image}
+              alt=""
+              className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition" />
+          </div>
           ))}
         </div>
+
       </div>
     </section>
   )

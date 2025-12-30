@@ -4,11 +4,11 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-black text-white py-24">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-semibold mb-6">
+        <h2 className="text-3xl uppercase tracking-widest mb-6">
           Get In Touch
         </h2>
 
-        <p className="text-gray-400 mb-8">
+        <p className="text-gray-400 mb-10">
           Let’s work together on your next project.
         </p>
 

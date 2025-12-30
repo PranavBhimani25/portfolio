@@ -32,15 +32,15 @@ export default function Hero() {
       ))}
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/60 z-10" />
+      <div className="absolute inset-0 bg-black/50 z-10" />
 
       {/* Content */}
       <div className="relative z-20 h-full flex items-center justify-center text-center px-6">
         <div className="text-white">
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold tracking-wide mb-6">
             Travel & Fashion Photographer
           </h1>
-          <p className="text-gray-300 text-lg mb-8">
+          <p className="uppercase tracking-[0.3em] text-sm text-gray-300 mb-10">
             Exploring cultures • Defining style
           </p>
           <a

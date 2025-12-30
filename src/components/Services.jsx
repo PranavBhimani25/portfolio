@@ -7,14 +7,14 @@ export default function Services() {
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="border border-gray-800 p-6">
+          <div className="border border-gray-800 p-6 hover:-translate-y-2 hover:border-white transition-all duration-300">
             <h3 className="text-xl mb-2">Photography</h3>
             <p className="text-gray-400">
               Portraits, events, products, and lifestyle shoots.
             </p>
           </div>
 
-          <div className="border border-gray-800 p-6">
+          <div className="border border-gray-800 p-6 hover:-translate-y-2 hover:border-white transition-all duration-300">
             <h3 className="text-xl mb-2">Video Editing</h3>
             <p className="text-gray-400">
               Cinematic edits, color grading, transitions.
@@ -22,7 +22,7 @@ export default function Services() {
           </div>
 
                     
-          <div className="border border-gray-800 p-6">
+          <div className="border border-gray-800 p-6 hover:-translate-y-2 hover:border-white transition-all duration-300">
             <h3 className="text-xl mb-2">Scripting</h3>
             <p className="text-gray-400">
               Concept-driven scripting for fashion films, travel stories,
@@ -30,7 +30,7 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="border border-gray-800 p-6">
+          <div className="border border-gray-800 p-6 hover:-translate-y-2 hover:border-white transition-all duration-300">
             <h3 className="text-xl mb-2">Inspirations</h3>
             <p className="text-gray-400">
               Creative mood boards and visual references to shape
@@ -38,7 +38,7 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="border border-gray-800 p-6">
+          <div className="border border-gray-800 p-6 hover:-translate-y-2 hover:border-white transition-all duration-300">
             <h3 className="text-xl mb-2">Campaigns</h3>
             <p className="text-gray-400">
               End-to-end creative campaigns for fashion brands,
@@ -46,7 +46,7 @@ export default function Services() {
             </p>
           </div>
 
-          <div className="border border-gray-800 p-6">
+          <div className="border border-gray-800 p-6 hover:-translate-y-2 hover:border-white transition-all duration-300">
             <h3 className="text-xl mb-2">Content Creation</h3>
             <p className="text-gray-400">
               High-quality visual content for social media, websites,
