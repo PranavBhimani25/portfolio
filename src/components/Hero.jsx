@@ -1,18 +1,18 @@
-import { useEffect, useState } from "react"
-import { heroImages } from "../data/heroImages"
+import { useEffect, useState } from "react";
+import { heroImages } from "../data/heroImages";
 
 export default function Hero() {
-  const [current, setCurrent] = useState(0)
+  const [current, setCurrent] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) =>
         prev === heroImages.length - 1 ? 0 : prev + 1
-      )
-    }, 4000) // 4 seconds
+      );
+    }, 4000);
 
-    return () => clearInterval(interval)
-  }, [])
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
@@ -37,12 +37,14 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 h-full flex items-center justify-center text-center px-6">
         <div className="text-white">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold tracking-wide mb-6">
-            Travel & Fashion Photographer
-          </h1>
+          <h1 className="font-gajraj text-5xl md:text-7xl lg:text-8xl tracking-wide mb-6">
+  Creative Directions
+</h1>
+
           <p className="uppercase tracking-[0.3em] text-sm text-gray-300 mb-10">
             Exploring cultures • Defining style
           </p>
+
           <a
             href="#work"
             className="inline-block border border-white px-8 py-3 hover:bg-white hover:text-black transition"
@@ -52,5 +54,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

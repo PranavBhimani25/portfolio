@@ -15,14 +15,6 @@ export default function Services() {
           </div>
 
           <div className="border border-gray-800 p-6 hover:-translate-y-2 hover:border-white transition-all duration-300">
-            <h3 className="text-xl mb-2">Video Editing</h3>
-            <p className="text-gray-400">
-              Cinematic edits, color grading, transitions.
-            </p>
-          </div>
-
-                    
-          <div className="border border-gray-800 p-6 hover:-translate-y-2 hover:border-white transition-all duration-300">
             <h3 className="text-xl mb-2">Scripting</h3>
             <p className="text-gray-400">
               Concept-driven scripting for fashion films, travel stories,

@@ -11,16 +11,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Travel Vlog Editing",
-    type: "Video Editing"
-  },
-  {
-    id: 4,
     title: "rude.clt",
     type: "Fashion Photography • Editorial Shoot • Ad Campaigns"
   },
   {
-    id: 5,
+    id: 4,
     title: "Reffit.Official",
     type: "Content Creation • Social Media Visuals"
   }

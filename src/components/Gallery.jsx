@@ -1,4 +1,4 @@
-import { gallery } from "../data/galleryData"
+import { gallery } from "../data/galleryData";
 
 export default function Gallery() {
   return (
@@ -9,23 +9,35 @@ export default function Gallery() {
         </h2>
 
         <div className="columns-1 sm:columns-2 md:columns-3 gap-6">
-        {gallery.map(item => (
-          <div
-            key={item.id}
-            className="mb-6 overflow-hidden group relative"
-          >
-            <img
-              src={item.image}
-              alt=""
-              className="w-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
+          {gallery.map((item) => (
+            <div
+              key={item.id}
+              className="mb-6 overflow-hidden group relative break-inside-avoid"
+            >
+              {item.type === "video" ? (
+                <video
+                  src={item.image}
+                  controls
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              ) : (
+                <img
+                  src={item.image}
+                  alt={item.alt || "Selected work"}
+                  loading="lazy"
+                  className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              )}
 
-            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition" />
-          </div>
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition pointer-events-none" />
+            </div>
           ))}
         </div>
-
       </div>
     </section>
-  )
+  );
 }

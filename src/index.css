@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,8 +14,15 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Playfair Display', serif;
+}
+
+/* Gajraj One font */
+.font-gajraj {
+  font-family: 'Gajraj One', cursive;
 }
 
 @keyframes slideDown {
@@ -21,6 +30,7 @@ h1, h2, h3 {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

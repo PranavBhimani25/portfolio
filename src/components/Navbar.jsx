@@ -7,7 +7,6 @@ export default function Navbar() {
   const links = [
     { name: "About", href: "#about" },
     { name: "Work", href: "#work" },
-    { name: "Services", href: "#services" },
     { name: "Contact", href: "#contact" },
   ]
 
