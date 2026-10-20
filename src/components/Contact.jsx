@@ -12,12 +12,15 @@ export default function Contact() {
           Let’s work together on your next project.
         </p>
 
-        <div className="flex justify-center gap-6 text-2xl">
-          <a href="mailto:parmar.yashhh18@email.com" className="hover:text-gray-400">
+        <div className="flex justify-center items-center gap-6 text-2xl flex-wrap">
+          <a href="mailto:parmar.yashhh18@email.com" className="hover:text-gray-400" aria-label="Email">
             <FaEnvelope />
           </a>
-          <a href="https://www.instagram.com/yaaashh.18?igsh=MTkwenpvbmE4eWgwbw==" className="hover:text-gray-400">
+          <a href="https://www.instagram.com/yaaashh.18?igsh=MTkwenpvbmE4eWgwbw==" className="hover:text-gray-400" aria-label="Instagram">
             <FaInstagram />
+          </a>
+          <a href="tel:7284050814" className="text-lg font-medium tracking-wide hover:text-gray-400">
+            7284050814
           </a>
         </div>
       </div>
