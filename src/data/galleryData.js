@@ -16,12 +16,12 @@ export const gallery = [
   {
     id: 3,
     category: "Travel",
-    image: "/images/travel_4.JPG",
+    image: "/images/IMG_0947.PNG",
   },
   {
     id: 4,
     category: "Travel",
-    image: "/images/travel_5.JPG",
+    image: "/images/IMG_0953.PNG",
   },
   {
     id: 5,
@@ -115,7 +115,7 @@ export const gallery = [
   {
     id: 21,
     category: "Travel",
-    image: "/images/IMG_0947.PNG",
+    image: "/images/travel_4.JPG",
   },
   {
     id: 22,
@@ -145,7 +145,7 @@ export const gallery = [
   {
     id: 27,
     category: "Travel",
-    image: "/images/IMG_0953.PNG",
+    image: "/images/travel_5.JPG",
   },
   {
     id: 30,

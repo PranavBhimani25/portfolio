@@ -20,7 +20,7 @@ export default function Contact() {
             <FaInstagram />
           </a>
           <a href="tel:7284050814" className="text-lg font-medium tracking-wide hover:text-gray-400">
-            7284050814
+            +91 7284050814
           </a>
         </div>
       </div>
